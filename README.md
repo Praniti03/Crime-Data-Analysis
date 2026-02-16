@@ -100,6 +100,10 @@ These models were used to forecast monthly crime volumes from 2020 onward, enabl
 
 An interactive Tableau dashboard was built to translate analytical results into an intuitive, decision-ready format.
 
+<p align="center">
+  <img src="Tableau Dashboard.png" width="900">
+</p>
+
 **KPI Summary:**
 
 Total Crimes Analyzed: 1,004,991
