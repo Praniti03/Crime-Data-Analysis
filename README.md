@@ -1,4 +1,4 @@
-**Crime Data Analysis & Time Series Forecasting**
+**LA Crime Analytics & Forecasting**
 
 **Tableau Dashboard**
 
