@@ -1,4 +1,4 @@
-**LA Crime Analytics & Forecasting**
+**Los Angeles Crime Analytics & Forecasting**
 
 **Tableau Dashboard**
 
