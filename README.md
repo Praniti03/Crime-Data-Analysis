@@ -98,11 +98,6 @@ These models were used to forecast monthly crime volumes from 2020 onward, enabl
 
 **📊 Interactive Tableau Dashboard**
 
-<p align="center">
-  <img src="Dashboard 1 (1).png" width="900">
-</p>
-
-
 An interactive Tableau dashboard was built to translate analytical results into an intuitive, decision-ready format.
 
 **KPI Summary:**
