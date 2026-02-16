@@ -1,114 +1,151 @@
 **Crime Data Analysis & Time Series Forecasting**
 
-**📖 Overview**
+**Tableau Dashboard**
 
-This project focuses on analyzing historical crime data to uncover temporal patterns, geographic hotspots, and crime trends, and to forecast future crime volumes using time series and regression-based models. The goal is to support data-driven decision-making for resource allocation, intervention planning, and proactive crime prevention.
+https://public.tableau.com/views/LACrimeAnalysisDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-The analysis combines data preprocessing, exploratory data analysis (EDA), and predictive forecasting to translate raw crime records into actionable insights.
+**📖 Project Overview**
+
+This project analyzes large-scale historical crime data to uncover temporal patterns, geographic hotspots, dominant crime types, and to forecast future crime volumes using time-series and regression-based models. The objective is to support data-driven decision-making for resource allocation, intervention planning, and proactive crime prevention.
+
+The workflow integrates data preprocessing, exploratory data analysis (EDA), predictive modeling, and an interactive Tableau dashboard to convert raw crime records into actionable insights for both technical and non-technical stakeholders.
 
 **🎯 Business Problem**
 
-Crime data is often large, noisy, and difficult to interpret without systematic analysis. Public agencies and planners need clear insights into:
+Crime datasets are often large, noisy, and difficult to interpret without structured analysis. Public agencies and planners need clear answers to:
 
-•	When crimes are most likely to occur
+When crimes are most likely to occur
 
-•	Which crime types dominate
+Which crime types dominate overall volume
 
-•	Where hotspots emerge over time
+Where persistent hotspots exist
 
-•	How crime levels may evolve in the future
+How crime levels may evolve in the future
 
-This project addresses these challenges by identifying patterns in historical crime data and forecasting future trends.
+This project addresses these challenges by combining historical trend analysis with forecasting and visual analytics.
 
 **🧠 Objectives**
 
-•	Clean and prepare raw crime data for reliable analysis
+Clean and prepare raw crime data for reliable analysis
 
-•	Identify temporal patterns such as monthly, weekly, and seasonal trends
+Identify monthly, weekly, and seasonal crime patterns
 
-•	Detect high-frequency crime types and geographic hotspots
+Detect high-frequency crime categories and hotspot regions
 
-•	Forecast future crime volumes to distinguish high- and low-crime periods
+Forecast future crime volumes to distinguish high- and low-risk periods
 
 **📊 Dataset Overview**
 
-•	Historical crime records covering multiple years
+Historical crime records spanning multiple years
 
-•	Key attributes include crime type, date/time, and location
+Key attributes include crime type, date/time, and geographic area
 
-•	Data required extensive preprocessing due to missing values, duplicates, and mixed data types
+Significant preprocessing required due to missing values, duplicates, and mixed data types
 
 **🛠️ Data Preprocessing**
 
-**Key steps performed:**
+Key steps performed:
 
-•	Removed duplicate records to avoid bias
+Removed duplicate records to prevent bias
 
-•	Imputed missing values for consistency
+Imputed missing values to maintain data consistency
 
-•	Encoded 13 categorical features for analysis
+Encoded 13 categorical features for analysis
 
-•	Scaled 11 numeric features to support modeling
+Scaled 11 numeric features to support modeling
 
-•	Prepared a clean and structured dataset for EDA and forecasting
+Produced a clean, structured dataset for EDA and forecasting
 
 **🔍 Exploratory Data Analysis (EDA)**
 
-Using Python (Pandas, Seaborn, Matplotlib), the analysis explored:
+Using Python (Pandas, Seaborn, Matplotlib), the analysis uncovered:
 
-•	Monthly and weekly crime trends
+Monthly and seasonal crime trends
 
-•	Seasonal patterns and year-over-year variations
+Day-of-week crime patterns
 
-•	High-frequency crime categories
+High-frequency crime categories
 
-•	Geographic crime hotspots
+Consistent geographic crime hotspots
 
 **Key Observations**
 
-•	Clear seasonal peaks in crime occurrence
+Clear seasonal peaks in crime occurrence
 
-•	Higher crime frequency during weekends
+Higher crime frequency toward weekends, with Friday as the peak day
 
-•	A small subset of crime types accounts for a large share of incidents
+A small subset of crime types accounts for a disproportionately large share of incidents
 
-•	Consistent hotspot regions across multiple time periods
+Certain regions remain persistent hotspots across multiple years
 
 **📈 Predictive Modeling & Forecasting**
 
 To estimate future crime trends, multiple models were developed and compared:
 
-•	Polynomial Linear Regression
+Polynomial Linear Regression
 
-•	SARIMAX (Seasonal ARIMA with exogenous components)
+SARIMAX (Seasonal ARIMA with exogenous components)
 
-•	Prophet
+Prophet
 
 These models were used to forecast monthly crime volumes from 2020 onward, enabling:
 
-•	Identification of high- vs. low-crime periods
+Identification of high- vs. low-crime periods
 
-•	Support for proactive planning and resource allocation
+Support for proactive planning and staffing decisions
 
-**💡 Insights & Impact**
+Long-term trend analysis for crime prevention strategies
 
-•	Forecasts highlight periods of elevated crime risk, allowing earlier intervention
+**📊 Interactive Tableau Dashboard**
 
-•	Temporal patterns help align staffing and resource deployment
+<p align="center">
+  <img src=""C:\Users\Praniti\Downloads\Dashboard 1 (1).png"" width="900">
+</p>
 
-•	Trend analysis supports long-term crime prevention strategies
+
+An interactive Tableau dashboard was built to translate analytical results into an intuitive, decision-ready format.
+
+**KPI Summary:**
+
+Total Crimes Analyzed: 1,004,991
+
+Peak Crime Year: 2022
+
+Most Frequent Crime Type: Vehicle – Stolen
+
+Highest Crime Area: Central Los Angeles
+
+Top 10 Crime Hotspots: Visual ranking of high-risk regions
+
+Seasonal Crime Patterns: Monthly trends vs. yearly average
+
+Day-of-Week Analysis: Highlights Friday as the peak activity day
+
+Trend View (2020–2025): Interactive exploration of long-term crime changes
+
+**💡 Insights & Business Impact**
+
+Forecasts highlight periods of elevated crime risk, enabling earlier intervention
+
+Temporal patterns support optimized resource deployment and staffing
+
+Hotspot analysis enables targeted policing and prevention strategies
+
+Dashboard allows stakeholders to explore when, where, and what crimes dominate without technical expertise
 
 **🧰 Tools & Technologies**
 
-•	Python
+Python
 
-•	Pandas, NumPy
+Pandas, NumPy
 
-•	Matplotlib, Seaborn
+Matplotlib, Seaborn
 
-•	Statsmodels (SARIMAX)
+Scikit-learn (Regression, Scaling)
 
-•	Prophet
+Statsmodels (SARIMAX)
 
-•	Scikit-learn (Regression, Scaling)
+Prophet
+
+Tableau
 
