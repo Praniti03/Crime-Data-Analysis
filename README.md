@@ -99,7 +99,7 @@ Long-term trend analysis for crime prevention strategies
 **📊 Interactive Tableau Dashboard**
 
 <p align="center">
-  <img src=""C:\Users\Praniti\Downloads\Dashboard 1 (1).png"" width="900">
+  <img src="C:\Users\Praniti\Downloads\Dashboard 1 (1).png" width="900">
 </p>
 
 
